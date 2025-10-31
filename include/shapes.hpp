@@ -9,4 +9,12 @@ class shape {
     std::vector<__UINT8_TYPE__> y;
 
     void draw();
-}
+};
+
+class image {
+
+    public:
+    std::vector<shape> shapes;
+
+    void draw();
+};
