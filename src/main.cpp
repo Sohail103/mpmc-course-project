@@ -1,9 +1,6 @@
-#pragma once
-#include "shapes.hpp"
-#include "Arduino.h"
+#include <Arduino.h>
+#include "image1.hpp"  
 #define framedelay 17
-
-extern Image image1;
 
 void setup() {}
 
