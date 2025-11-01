@@ -1,18 +1,14 @@
-#include <Arduino.h>
+#pragma once
+#include "shapes.hpp"
+#include "Arduino.h"
+#define framedelay 17
 
-// put function declarations here:
-int myFunction(int, int);
+extern Image image1;
 
-void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
-}
+void setup() {}
 
-void loop() {
-  // put your main code here, to run repeatedly:
-}
-
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+void loop()
+{
+  image1.draw();
+  delay(framedelay);
 }
