@@ -2,7 +2,7 @@
 #include <Arduino.h>
 #define xchannel 25
 #define ychannel 26
-#define wait_us 500
+#define wait_us 15
 #define dac_min 0
 #define dac_max 255
 
